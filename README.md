@@ -1,6 +1,6 @@
 ntp
 ===
-
+[![Build Status](https://travis-ci.org/gorazio/ansible-ntp.svg?branch=master)](https://travis-ci.org/gorazio/ansible-ntp)
 This role enables users to install and configure ntp on their hosts.
 
 Requirements
