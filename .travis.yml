@@ -16,6 +16,4 @@ script:
     | grep -q 'changed=0.*failed=0'
     && (echo 'Idempotence test: pass' && exit 0)
     || (echo 'Idempotence test: fail' && exit 1)
-  - sudo service ntp status | grep -q 'NTP server is running'
-  	&& (echo 'ntp started: pass' && exit 0)
-    || (echo 'ntd dont start: fail' && exit 1)
+
