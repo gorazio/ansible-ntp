@@ -19,4 +19,5 @@
   notify: 
    - restart ntp
 
- 
+- name: start ntp
+  service: name={{ ntp_svc_name }} state=started enabled=yes
